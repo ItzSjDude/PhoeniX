@@ -21,7 +21,7 @@ from chatterbot.conversation import Statement
 from telethon import events
 import asyncio
 import os
-from uniborg.util import admin_cmd
+from userbot.utils import admin_cmd
 import logging
 logging.basicConfig(level=logging.INFO)
 from sample_config import Config
