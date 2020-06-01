@@ -9,7 +9,7 @@ import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from uniborg.util import admin_cmd
-import uniborg
+import userbot
 from os import remove
 from platform import python_version, uname
 from shutil import which
