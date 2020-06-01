@@ -6,7 +6,6 @@ opencv-contrib-python
 aiohttp
 aria2p
 beautifulsoup4
-coffeehouse>=2.1.0
 cowpy
 cfscrape
 cryptg
@@ -28,7 +27,6 @@ regex
 requests>=2.18.4
 PyGithub
 speedtest-cli
-sqlalchemy>=1.3.13
 telegraph
 urbandict
 wikipedia
@@ -65,3 +63,20 @@ covid
 pythondns
 psutil
 py-cpuinfo==5.0.0
+pybase64>=0.4.0
+pyfiglet
+pylast
+pymongo
+python-barcode
+python-dotenv
+pytube
+pytz
+search-engine-parser>=0.4.2
+selenium
+speedtest-cli>=2.0.2
+sqlalchemy>=1.2
+async_generator
+bwb==3.0.0
+cfscrape
+coffeehouse
+
