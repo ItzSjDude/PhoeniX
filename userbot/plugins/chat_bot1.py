@@ -28,7 +28,7 @@ from sample_config import Config
 from platform import python_version, uname
 import pymongo
 from pymongo import MongoClient
-mongo_client = MongoClient('localhost', 27017)
+mongo_client = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
 # ================= CONSTANT =================
 DEFAULTUSER = Config.ALIVE_NAME if Config.ALIVE_NAME else uname().node
 # ============================================
