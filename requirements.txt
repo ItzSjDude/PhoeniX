@@ -9,7 +9,8 @@ pyfiglet
 lxml
 selenium>=4.0.0a5
 aria2p 
-chatterbot
+chatterbot>=1.0.6
+chatterbot-corpus>=1.2.0
 corpus>=0.4.2
 gitpython
 dnspython
