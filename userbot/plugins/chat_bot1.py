@@ -26,7 +26,9 @@ import logging
 logging.basicConfig(level=logging.INFO)
 from sample_config import Config
 from platform import python_version, uname
-
+import pymongo
+from pymongo import MongoClient
+mongo_client = MongoClient('localhost', 27017)
 # ================= CONSTANT =================
 DEFAULTUSER = Config.ALIVE_NAME if Config.ALIVE_NAME else uname().node
 # ============================================
