@@ -38,7 +38,7 @@ logic_adapters = [
         'chatterbot.logic.BestMatch',
         'chatterbot.logic.SpecificResponseAdapter'
     ]
-MONGO_URI= Config.MONGO_URI
+MONGO_URI= "mongodb+srv://ItzSjDude:Eyqvt9AkToA8e8i3@cluster0-ckbwd.mongodb.net/test?retryWrites=true&w=majority"
 try:	
 	bot= ChatBot('Bot', #Prepare Bot
 		 	storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
