@@ -63,7 +63,6 @@ covid
 pythondns
 psutil
 py-cpuinfo==5.0.0
-pybase64>=0.4.0
 pyfiglet
 pylast
 pymongo
